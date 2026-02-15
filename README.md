@@ -69,8 +69,6 @@ Node.js + Express backend with Prisma ORM and PostgreSQL database.
 
 ---
 
-````
-
 ## 🚀 Tech Stack
 
 - Node.js 18+
@@ -90,7 +88,7 @@ Node.js + Express backend with Prisma ORM and PostgreSQL database.
 cd backend
 npm install
 
-````
+```
 
 ### 2️⃣ Setup Environment Variables
 
