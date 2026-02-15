@@ -63,13 +63,13 @@ npm run dev
 
 ---
 
-```md
 # 🦷 AI Dental Assistant – Backend
 
 Node.js + Express backend with Prisma ORM and PostgreSQL database.
 
 ---
-```
+
+````
 
 ## 🚀 Tech Stack
 
@@ -90,7 +90,7 @@ Node.js + Express backend with Prisma ORM and PostgreSQL database.
 cd backend
 npm install
 
-```
+````
 
 ### 2️⃣ Setup Environment Variables
 
@@ -149,16 +149,11 @@ Pagination: ?page=1&limit=5 (default: page 1, 5 items per page)
   - Structuring controllers and Prisma queries
   - Implementing pagination
 
----
-
 # 📁 AI SERVICE
 
-````md
 # 🦷 AI Dental Assistant – AI Microservice
 
 FastAPI-based microservice that integrates OpenAI for generating dental responses.
-
----
 
 ## 🚀 Tech Stack
 
@@ -172,6 +167,8 @@ FastAPI-based microservice that integrates OpenAI for generating dental response
 
 ## 📦 Project Setup
 
+---
+
 ### 1️⃣ Create Virtual Environment
 
 ```bash
@@ -179,6 +176,7 @@ cd ai-service
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
+
 ````
 
 ### 2️⃣ Install Dependencies
@@ -232,3 +230,4 @@ Example Response:
   - Implement OpenAI chat integration
 
   - Generate code suggestions for FastAPI endpoints
+````
